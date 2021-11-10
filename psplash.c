@@ -47,7 +47,7 @@ psplash_draw_msg (PSplashFB *fb, const char *msg)
   /* Clear */
 
   psplash_fb_draw_rect (fb, 
-			0, 
+			fb->width / 4, 
 			SPLIT_LINE_POS(fb) - h, 
 			fb->width / 2,
 			h,
