@@ -49,7 +49,7 @@ psplash_draw_msg (PSplashFB *fb, const char *msg)
   psplash_fb_draw_rect (fb, 
 			0, 
 			SPLIT_LINE_POS(fb) - h, 
-			fb->width,
+			fb->width / 2,
 			h,
 			PSPLASH_BACKGROUND_COLOR);
 
