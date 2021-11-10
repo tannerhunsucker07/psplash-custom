@@ -46,12 +46,12 @@ psplash_draw_msg (PSplashFB *fb, const char *msg)
 
   /* Clear */
 
-  psplash_fb_draw_rect (fb, 
+  /*psplash_fb_draw_rect (fb, 
 			fb->width / 4, 
 			SPLIT_LINE_POS(fb) - h, 
 			fb->width / 2,
 			h,
-			PSPLASH_BACKGROUND_COLOR);
+			PSPLASH_BACKGROUND_COLOR);*/
 
   psplash_fb_draw_text (fb,
 			(fb->width-w)/2, 
@@ -76,18 +76,18 @@ psplash_draw_progress (PSplashFB *fb, int value)
   if (value > 0)
     {
       barwidth = (CLAMP(value,0,100) * width) / 100;
-      psplash_fb_draw_rect (fb, x + barwidth, y, 
+      /*psplash_fb_draw_rect (fb, x + barwidth, y, 
     			width - barwidth, height,
-			PSPLASH_BAR_BACKGROUND_COLOR);
+			PSPLASH_BAR_BACKGROUND_COLOR);*/
       psplash_fb_draw_rect (fb, x, y, barwidth,
 			    height, PSPLASH_BAR_COLOR);
     }
   else
     {
       barwidth = (CLAMP(-value,0,100) * width) / 100;
-      psplash_fb_draw_rect (fb, x, y, 
+      /*psplash_fb_draw_rect (fb, x, y, 
     			width - barwidth, height,
-			PSPLASH_BAR_BACKGROUND_COLOR);
+			PSPLASH_BAR_BACKGROUND_COLOR);*/
       psplash_fb_draw_rect (fb, x + width - barwidth,
 			    y, barwidth, height,
 			    PSPLASH_BAR_COLOR);
