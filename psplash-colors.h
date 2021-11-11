@@ -13,7 +13,7 @@
 
 /* This is the overall background color */
 #define PSPLASH_MESSAGE_BOX_COLOR 0x00,0x4a,0x84
-#define PSPLASH_BOTTOM_BOX_COLOR 0x00,0x48,0x80
+#define PSPLASH_BOTTOM_BOX_COLOR 0x00,0x5a,0x94
 
 /* This is the color of any text output */
 #define PSPLASH_TEXT_COLOR 0xff,0xff,0xff
