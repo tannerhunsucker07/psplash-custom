@@ -12,8 +12,8 @@
 #define _HAVE_PSPLASH_COLORS_H
 
 /* This is the overall background color */
-#define PSPLASH_MESSAGE_BOX_COLOR 0x00,0x52,0x8c
-#define PSPLASH_BOTTOM_BOX_COLOR 0x00,0x52,0x8c
+#define PSPLASH_MESSAGE_BOX_COLOR 0x00,0x4a,0x84
+#define PSPLASH_BOTTOM_BOX_COLOR 0x00,0x48,0x80
 
 /* This is the color of any text output */
 #define PSPLASH_TEXT_COLOR 0xff,0xff,0xff
